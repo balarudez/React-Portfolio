@@ -126,7 +126,7 @@ export const experiences = [
     role: "Sofware Developer Intern",
     company: "Stacklix Techonlogies",
     date: "Oct 2024 - Present",
-    desc: "Software developer at Stacklix, specializing in full-stack web development using NestJS and TypeORM.",
+    desc: "Developer at Stacklix, specializing in software development using NestJS and TypeORM.",
     skills: [
       "NestJs",
       "TypeOrm",

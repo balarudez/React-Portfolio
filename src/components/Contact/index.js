@@ -138,7 +138,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_hdj8ulr", "", form.current, "XYu5gMdrYyrIJUz7Z")
+      .sendForm(
+        "service_hdj8ulr",
+        "template_i8cw6ud",
+        form.current,
+        "XYu5gMdrYyrIJUz7Z"
+      )
       .then(
         (result) => {
           setOpen({
